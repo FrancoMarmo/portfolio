@@ -1,0 +1,46 @@
+/*ABOUT ME*/
+
+
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    box-shadow: 10px -5px 12px 1px #e5e5e5;
+}.aboutme-tittle{
+    margin-top: 20px;
+    margin-bottom: 30px;
+} h4{
+    background: #ccc;
+    background: linear-gradient(to right, #5b2d96, #3e3746);
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: underline #5b2d96;
+
+} .aboutme-container2{
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    margin: 0px 150px 80px;
+} h5{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-shadow: #181818 1px 1px 3px;
+} .about-text{
+    text-align: center;
+    padding: 20px;
+} p{
+    letter-spacing: 1px;
+} span{
+    color: #8931fc;
+    font-weight: bold;
+}

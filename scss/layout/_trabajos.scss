@@ -1,0 +1,122 @@
+
+.Proyects-container{
+    align-items: center;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6.5rem 21rem;
+    font-family: 'Nunito', sans-serif;
+} .proyects-tittle{
+    margin: 0 0 3rem;
+} .myproyectstittle{
+    margin: 0;
+    padding: 0 0 0.3rem;
+    background: #ccc;
+    background: linear-gradient(to right, #5b2d96, #3e3746);
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: underline #5b2d96;
+    font-family: "Oswald";
+
+} .proyects-card-container{
+    grid-gap: 3rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(0,1fr);
+    grid-template-rows: minmax(0,1fr);
+} .proyect-container{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 2rem;
+    gap: 100px;
+} .proyect-1{
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -4px rgba(0, 0, 0, 0.1);
+} .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+} .top{
+    text-align: center;
+} .proyect-tittle{
+    font-size: 1.7rem;
+    margin: 0 0 1rem;
+    font-weight: bold;
+} .proyect-description{
+    margin: 0;
+} .bottom{
+    display: flex;
+    flex-direction: column;
+} .tech-used{
+    font-weight: bold;
+    text-align: center;
+} .proyect-skills{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+} .skill-a{
+    height: 2.5rem;
+    width: 2.5rem;
+    background: url(/assets/img/css-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} .skill-b{
+    height: 2.5rem;
+    width: 2.5rem;
+    background: url(/assets/img/css-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} .skill-c{
+    height: 2.5rem;
+    width: 2.5rem;
+    background: url(/assets/img/css-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} .img-proyect-1{
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1);
+    height: 15rem;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+    width: 25rem;
+} .img-proyect-1:hover{
+    transform: scale(1.01)
+} .img-proyect-1{
+    background: url(/assets/img/image.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover
+} .proyect-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} .proyect-links a{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem 0;
+    text-decoration: none;
+} .bx-globe{
+    color: black;
+} .bx-globe:hover{
+    transform: scale(1.2);
+} .bxl-github{
+    color: black;
+} .bxl-github:hover{
+    transform: scale(1.2);
+}
