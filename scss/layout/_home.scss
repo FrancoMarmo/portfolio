@@ -119,3 +119,60 @@ li a {
     width: auto;
     height: 45px;
 }
+
+
+
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+    .home {
+        padding: 50px;
+    }
+
+    .titulo-foto-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .titulo-pri {
+        padding-right: 0;
+    }
+
+    .foto-perfil img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills {
+        margin-top: 50px;
+    }
+
+    .skills2 {
+        width: 100%;
+    }
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+    .home {
+        padding: 30px;
+    }
+
+    .titulo-pri {
+        padding-right: 0;
+    }
+
+    .foto-perfil img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills {
+        margin-top: 30px;
+    }
+
+    .skills2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}

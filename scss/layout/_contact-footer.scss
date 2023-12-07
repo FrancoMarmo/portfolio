@@ -76,4 +76,55 @@
         color: #fff;
     font-weight: 400;
     margin: 0;
+
     }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Ajustes para la sección de contacto y pie de página en dispositivos móviles */
+    .contact-container {
+        padding: 0 20px;
+    }
+
+    .contact-subtittle {
+        font-size: 14px;
+        text-align: center; /* Ajusta el texto al centro en dispositivos móviles */
+        max-width: 100%; /* Evita que el texto se salga del contenedor */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-card {
+        padding: 2rem 8%;
+    }
+}
+
+/* Ajustes adicionales para resoluciones más pequeñas */
+@media only screen and (max-width: 375px) {
+    .contact-container {
+        padding: 0 10px; /* Ajusta aún más el padding para resoluciones más pequeñas */
+    }
+
+    .contact-card {
+        padding: 2rem 4%; /* Ajusta el padding para resoluciones más pequeñas */
+    }
+
+    .contact-subtittle {
+        font-size: 12px; /* Ajusta el tamaño del texto para resoluciones más pequeñas */
+    }
+}
+
+/* Ajustes adicionales para resoluciones más pequeñas */
+@media only screen and (max-width: 320px) {
+    .contact-container {
+        padding: 0 5px; /* Ajusta el padding para resoluciones de 320px */
+    }
+
+    .contact-card {
+        padding: 2rem 2%; /* Ajusta el padding para resoluciones de 320px */
+    }
+
+    .contact-subtittle {
+        font-size: 10px; /* Ajusta el tamaño del texto para resoluciones de 320px */
+    }
+}

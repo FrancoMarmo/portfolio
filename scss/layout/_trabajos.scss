@@ -120,3 +120,38 @@
 } .bxl-github:hover{
     transform: scale(1.2);
 }
+
+
+/* Estilos para tablets y dispositivos más pequeños */
+@media only screen and (max-width: 768px) {
+    .Proyects-container {
+        padding: 50px;
+    }
+
+    .proyect-container {
+        flex-direction: column; /* Cambiado a flex-direction: column */
+        align-items: center;
+    }
+
+    .img-proyect-1 {
+        width: 100%; /* Ajustar el ancho al 100% para adaptarse al contenedor */
+        height: auto; /* Mantener la proporción de aspecto original */
+        max-width: 100%; /* Garantizar que no exceda el ancho máximo del contenedor */
+        margin-bottom: 20px; /* Agregar un espacio inferior opcional para mejorar la apariencia */
+    }
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+    .Proyects-container {
+        padding: 30px;
+    }
+
+    .img-proyect-1 {
+        width: 100%; /* Ajustar el ancho al 100% para adaptarse al contenedor */
+        height: auto; /* Mantener la proporción de aspecto original */
+        max-width: 100%; /* Garantizar que no exceda el ancho máximo del contenedor */
+        margin-bottom: 20px; /* Agregar un espacio inferior opcional para mejorar la apariencia */
+    }
+}
+

@@ -44,3 +44,25 @@
     color: #8931fc;
     font-weight: bold;
 }
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+    .aboutme-container {
+        padding: 50px;
+    }
+
+    .aboutme-container2 {
+        margin: 0 30px;
+    }
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+    .aboutme-container {
+        padding: 30px;
+    }
+
+    .aboutme-container2 {
+        margin: 0 20px;
+    }
+}

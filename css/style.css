@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*IMPORTO LAS UTILITIES*/
 /*IMPORTO LA BASE*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
@@ -66,6 +67,51 @@
   background-color: #e2f1f8;
   color: #8931fc;
   transform: scale(1.1); }
+
+/*MEDIA QUERYS*/
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 5px 5%;
+    flex-direction: column;
+    align-items: center;
+    height: auto; }
+  .name {
+    margin-bottom: 10px; }
+  .nav-links {
+    margin-top: 10px;
+    text-align: center; }
+  .header .nav-links li {
+    display: block;
+    padding: 10px 0; }
+  .btn {
+    margin-top: 15px; } }
+
+html {
+  scroll-behavior: smooth; }
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 5px 2%; }
+  .nav-links {
+    margin-top: 10px;
+    text-align: center; }
+  .header .nav-links li {
+    display: block;
+    padding: 10px 0; } }
+
+@media only screen and (min-width: 769px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Para asegurar que esté encima de otros elementos */ }
+  .header .nav-links {
+    margin-top: 0;
+    /* Elimina el margen superior en resoluciones de PC */ } }
 
 .Proyects-container {
   align-items: center;
@@ -212,6 +258,38 @@
 .bxl-github:hover {
   transform: scale(1.2); }
 
+/* Estilos para tablets y dispositivos más pequeños */
+@media only screen and (max-width: 768px) {
+  .Proyects-container {
+    padding: 50px; }
+  .proyect-container {
+    flex-direction: column;
+    /* Cambiado a flex-direction: column */
+    align-items: center; }
+  .img-proyect-1 {
+    width: 100%;
+    /* Ajustar el ancho al 100% para adaptarse al contenedor */
+    height: auto;
+    /* Mantener la proporción de aspecto original */
+    max-width: 100%;
+    /* Garantizar que no exceda el ancho máximo del contenedor */
+    margin-bottom: 20px;
+    /* Agregar un espacio inferior opcional para mejorar la apariencia */ } }
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+  .Proyects-container {
+    padding: 30px; }
+  .img-proyect-1 {
+    width: 100%;
+    /* Ajustar el ancho al 100% para adaptarse al contenedor */
+    height: auto;
+    /* Mantener la proporción de aspecto original */
+    max-width: 100%;
+    /* Garantizar que no exceda el ancho máximo del contenedor */
+    margin-bottom: 20px;
+    /* Agregar un espacio inferior opcional para mejorar la apariencia */ } }
+
 /*ABOUT ME*/
 .aboutme-container {
   display: flex;
@@ -261,6 +339,20 @@ p {
 span {
   color: #8931fc;
   font-weight: bold; }
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .aboutme-container {
+    padding: 50px; }
+  .aboutme-container2 {
+    margin: 0 30px; } }
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+  .aboutme-container {
+    padding: 30px; }
+  .aboutme-container2 {
+    margin: 0 20px; } }
 
 .home {
   display: flex;
@@ -371,6 +463,38 @@ img {
   width: auto;
   height: 45px; }
 
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .home {
+    padding: 50px; }
+  .titulo-foto-container {
+    flex-direction: column;
+    margin-bottom: 50px; }
+  .titulo-pri {
+    padding-right: 0; }
+  .foto-perfil img {
+    width: 100%;
+    height: auto; }
+  .skills {
+    margin-top: 50px; }
+  .skills2 {
+    width: 100%; } }
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+  .home {
+    padding: 30px; }
+  .titulo-pri {
+    padding-right: 0; }
+  .foto-perfil img {
+    width: 100%;
+    height: auto; }
+  .skills {
+    margin-top: 30px; }
+  .skills2 {
+    flex-direction: column;
+    align-items: center; } }
+
 /*contact y footer */
 .contact-footer-container {
   align-items: center;
@@ -447,3 +571,43 @@ img {
   color: #fff;
   font-weight: 400;
   margin: 0; }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  /* Ajustes para la sección de contacto y pie de página en dispositivos móviles */
+  .contact-container {
+    padding: 0 20px; }
+  .contact-subtittle {
+    font-size: 14px;
+    text-align: center;
+    /* Ajusta el texto al centro en dispositivos móviles */
+    max-width: 100%;
+    /* Evita que el texto se salga del contenedor */
+    margin-left: auto;
+    margin-right: auto; }
+  .contact-card {
+    padding: 2rem 8%; } }
+
+/* Ajustes adicionales para resoluciones más pequeñas */
+@media only screen and (max-width: 375px) {
+  .contact-container {
+    padding: 0 10px;
+    /* Ajusta aún más el padding para resoluciones más pequeñas */ }
+  .contact-card {
+    padding: 2rem 4%;
+    /* Ajusta el padding para resoluciones más pequeñas */ }
+  .contact-subtittle {
+    font-size: 12px;
+    /* Ajusta el tamaño del texto para resoluciones más pequeñas */ } }
+
+/* Ajustes adicionales para resoluciones más pequeñas */
+@media only screen and (max-width: 320px) {
+  .contact-container {
+    padding: 0 5px;
+    /* Ajusta el padding para resoluciones de 320px */ }
+  .contact-card {
+    padding: 2rem 2%;
+    /* Ajusta el padding para resoluciones de 320px */ }
+  .contact-subtittle {
+    font-size: 10px;
+    /* Ajusta el tamaño del texto para resoluciones de 320px */ } }
