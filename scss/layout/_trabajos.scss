@@ -65,7 +65,7 @@
 } .skill-a{
     height: 2.5rem;
     width: 2.5rem;
-    background: url(/assets/img/css-3.png);
+    background: url(/assets/img/html-5.png);
     background-repeat: no-repeat;
     background-size: contain;
 } .skill-b{
@@ -77,7 +77,7 @@
 } .skill-c{
     height: 2.5rem;
     width: 2.5rem;
-    background: url(/assets/img/css-3.png);
+    background: url(/assets/img/js.png);
     background-repeat: no-repeat;
     background-size: contain;
 } .right{
@@ -99,7 +99,24 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
-} .proyect-links{
+}
+.img-proyect-2{
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1);
+    height: 15rem;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+    width: 25rem;
+} .img-proyect-2:hover{
+    transform: scale(1.01)
+} .img-proyect-2{
+    background: url(/assets/img/IPRO.jfif);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.proyect-links{
     display: flex;
     justify-content: center;
     list-style: none;
